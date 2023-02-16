@@ -19,6 +19,8 @@ public class Userinput {
       
       ScriptEngineManager manager = new ScriptEngineManager();
       ScriptEngine engine = manager.getEngineByName("JavaScript");
+
+      //Note: - eval() is used only to demonstrate in this example & it can be exploited for XSS
       System.out.println(engine.eval(firstname));
       return;
     }
