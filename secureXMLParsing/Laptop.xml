@@ -1,0 +1,14 @@
+<laptops>
+
+    <laptop name = "Apple">
+        <price value = '1000' />
+        <Memory value = '24GB' />
+        <Model value = '2023' />
+    </laptop>
+    <laptop name = "Dell">
+        <price value = '5000' />
+        <Memory value = '8GB' />
+        <Model value = '2008' />
+    </laptop>
+
+</laptops>
